@@ -10,7 +10,7 @@
     gtag('config', 'UA-114926389-1');
   </script>
 
-  <title>Paramount Outdoor, Inc.</title>
+  <title>Paramount Services, LLC</title>
 
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,10 +49,10 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Paramount Outdoor, Inc. contact form <Jayeson.Brewster@gmail.com>';
+$from = 'Paramount Services, LLC contact form <Jayeson.Brewster@gmail.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Paramount Outdoor, Inc. contact form <Jayeson.Brewster@gmail.com>';
+$sendTo = 'Paramount Services, LLC contact form <Jayeson.Brewster@gmail.com>';
 
 // subject of the email
 $subject = 'New message from Paramount contact form';
@@ -62,7 +62,7 @@ $subject = 'New message from Paramount contact form';
 $fields = array('name' => 'Name', 'companyname' => 'Companyname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = '<div class=\'okaymessage\'><h3>Thank you for contacting us. We will get back to you within one business day!</h3><br /><br /><center><a href=\'index.html\' alt=\'Homepage\'><img src=\'images/logo.png\'></a></center></div>';
+$okMessage = '<div class=\'okaymessage\'><h3>Thank you for contacting us. We will get back to you right away!</h3><br /><br /><center><a href=\'index.html\' alt=\'Homepage\'><img src=\'images/logo.png\'></a></center></div>';
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
